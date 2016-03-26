@@ -1,3 +1,21 @@
 Title: About
 
-I'm Lukasz Uszko, an embedded software engineer. I work at [Delphi](http://www.delphi.com), a company specializing in automotive market. I work there as an embedded software developer, creating solution for one of the bigest german automotive company. My languages of choice are C/C++ and python, and I'm fluent in Java as well. See GitHub for some of my side-projects.
+###Hello!
+
+I'm Lukasz Uszko, an embedded software engineer from southern Poland. I work at [Delphi](http://www.delphi.com), a company specializing in automotive solutions. I work there as an embedded software developer, creating software that runs in your car. My interests are widely spread from high level programming in languages like JAVA or Python through coding low level drivers in C/C+ and building electronic devices. In my leasure time I mainly run, sleep or play football. 
+
+In case of any question feel free to email me: 
+
+```
+lukasz.uszko@gmail.com
+```
+
+or directly: <a href="mailto:lukasz.uszko@gmail.com?Subject=Hello%20Lukasz!" target="_top">Send me an email</a>
+
+
+
+
+Keep Making!
+------ 
+
+Łukasz

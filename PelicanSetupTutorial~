@@ -19,7 +19,6 @@ after: source env/bin/activate
 
 pip install pelican
 pip install Markdown
-pip install bs4
 
 Fire up your demo project:
 pelican-quickstart

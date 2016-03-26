@@ -62,8 +62,8 @@ BANNER = 'images/thunderstorm_banner.jpg'
 BANNER_SUBTITLE= '... all about ac, dc and it :-)'
 #SITELOGO = 'images/logo.png'
 #SITELOGO_SIZE = 32
-FAVICON = 'images/logo.png'
-AVATAR = 'images/logo.png'
+FAVICON = 'images/favicon.png'
+AVATAR = 'images/favicon.png'
 TWITTER_CARDS = True
 SHOW_ARTICLE_CATEGORY = True
 
