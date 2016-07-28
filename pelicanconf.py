@@ -23,7 +23,7 @@ TWITTER_USERNAME = 'igbt6'
 
 CUSTOM_CSS = 'static/custom.css'
 
-STATIC_PATHS = ['images', 'files', 'extra/favicon.ico', 'extra/custom.css']
+STATIC_PATHS = ['images', 'static', 'extra/favicon.ico', 'extra/custom.css']
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},

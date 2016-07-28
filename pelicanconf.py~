@@ -23,7 +23,7 @@ TWITTER_USERNAME = 'igbt6'
 
 CUSTOM_CSS = 'static/custom.css'
 
-STATIC_PATHS = ['images', 'files', 'extra/favicon.ico', 'extra/custom.css']
+STATIC_PATHS = ['images', 'static', 'extra/favicon.ico', 'extra/custom.css']
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
@@ -62,8 +62,8 @@ BANNER = 'images/thunderstorm_banner.jpg'
 BANNER_SUBTITLE= '... all about ac, dc and it :-)'
 #SITELOGO = 'images/logo.png'
 #SITELOGO_SIZE = 32
-FAVICON = 'images/favicon.png'
-AVATAR = 'images/favicon.png'
+FAVICON = 'images/logo.png'
+AVATAR = 'images/logo.png'
 TWITTER_CARDS = True
 SHOW_ARTICLE_CATEGORY = True
 

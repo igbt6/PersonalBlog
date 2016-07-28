@@ -1,0 +1,68 @@
+Title: How to setup Pelican blog 
+Date: 2016-03-22 00:20
+Category: Web
+
+Hello Reader!
+
+In my first I would like to show you how to create, configure and setup a simple blog site based like this mine. 
+The blog is created using [Pelican](getpelican.com) - a static site generator, written in Python. The utility lets you create weblogs using formats: [reStructuredText](http://docutils.sourceforge.net/rst.html) or [Markdown](https://daringfireball.net/projects/markdown/). Pelican's main features are following:
+
+- *Articles* (blog posts, pages like About, Projects, Contact)
+- *Comments*
+- *Theming support*
+- *Publication of articles in multiple languages*
+- *Atom/RSS feeds*
+- *Code syntax highlighting*
+- *Import from WordPress, Dotclear, or RSS feeds*
+
+I am not going to talk here about advantages or disadvantages of static websites over dynamic ones. Main reason for me of using such solution is that you can host it easily anywhere. Later I will show you how to host your blog on github : ) 
+
+
+#### <i class="icon-file"></i> *Install Pelican*
+
+As a first step I highly recommend you to install ``virtualenv`` package on your computer. It creates an isolated *virtual environment* for your program. More speciffically it creates a separate folder taht contains copy of the Python binary or site-packages directory so it lets you install/update required packages by your application without changing global instance of Python packgage. More details to be found here: [virtualenv site](https://virtualenv.pypa.io/en/stable/).
+To install virtualenv just type the following in your command line:
+```sh
+sudo pip install virtualenv
+```
+Now create a folder that contains your project and create a new virtual environment inside
+```sh
+cd mkdir -p ~/projects/yourblog
+cd ~/projects/yourblog
+virtualenv env
+```
+Activate the new created environment
+```sh
+source env/bin/activate
+```
+
+Now you can check which python version is being used
+```sh
+which python
+```
+
+You should get a response like that:
+```sh
+/projects/yourblog/env/bin/python
+```
+
+It just means that currently used python is that one created in virtual environment
+
+Install Pelican and Markdown packages
+```sh
+pip install pelican
+pip install Markdown
+```
+
+
+#### *Create your blog*
+
+The fastest way of creating new project is to use a default skeleton-project and then to extend it with your own content
+
+In your project folder run the following commands:
+```sh
+cd ~/projects/yourblog
+pelican-quickstart
+```
+Now you will be asked to fill up some informations about your site, you can also use default values denoted in brackets. Look on sample setup informations below:
+
