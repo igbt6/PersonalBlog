@@ -4,7 +4,7 @@ Category: Web
 
 Hello Reader!
 
-In my first I would like to show you how to create, configure and setup a simple static blog site like this mine.
+In my first post I would like to show you how to create, configure and setup a simple static blog site like this mine.
 
 The blog is created using [Pelican](getpelican.com) - a static site generator, written in Python. The utility lets you create weblogs using  [reStructuredText](http://docutils.sourceforge.net/rst.html) or [Markdown](https://daringfireball.net/projects/markdown/) text formats. Pelican's main features are following:
 

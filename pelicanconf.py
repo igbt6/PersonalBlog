@@ -7,7 +7,6 @@ import os
 AUTHOR = 'lukasz uszko'
 SITENAME = 'Lukasz makes stuff'
 SITEURL = 'http://lukaszmakesstuff.com'
-
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
@@ -23,7 +22,7 @@ TWITTER_USERNAME = 'igbt6'
 
 CUSTOM_CSS = 'static/custom.css'
 
-STATIC_PATHS = ['images', 'static', 'extra/favicon.ico', 'extra/custom.css']
+STATIC_PATHS = ['images', 'static', 'extra']
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
@@ -46,10 +45,10 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-#ARTICLE_URL = 'blog/{slug}.html'
-#ARTICLE_SAVE_AS = 'blog/{slug}.html'
-#PAGE_URL = '{slug}.html'
-#PAGE_SAVE_AS = '{slug}.html'
+ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 #TAG_URL = 'tags/{slug}.html'
 #TAG_SAVE_AS = 'tags/{slug}.html'
 #TAGS_URL = 'tags.html'
@@ -85,6 +84,8 @@ PLUGIN_PATHS = ['pelican-plugins']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
 
 DISQUS_SITENAME = 'igbt6'
-#DISQUS_SHORTNAME = 'lukaszmakesstuffcom'
+DISQUS_SHORTNAME= 'igbt6'
+DISQUS_URL= 'http://lukaszmakesstuff.com'
+DISQUS_NO_ID = True
 DISQUS_DISPLAY_COUNTS = True
 
