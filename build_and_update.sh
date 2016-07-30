@@ -4,9 +4,6 @@ BASE_DIR=/home/igbt6/Desktop/Blog
 BLOG_SOURCE_DIR=$(pwd)
 OUTPUT_DIR=$BLOG_SOURCE_DIR/output
 WEBSITE_DIR=$BASE_DIR/igbt6.github.io
-CONFFILE=$BLOG_SOURCE_DIR/pelicanconf.py
-
-echo $WEBSITE_DIR 
 
 function usage(){
   echo "usage: $0 (start)/(git) $1 (commit msg) " 
@@ -69,10 +66,10 @@ function commit_changes(){
 echo "--------start--------"
 generate
 remove_and_copy
-if [[ $1 == "start" ]] 
+if [[ $1 == "start" ]]
 then
   fire_up_pelican_server
-elif [[ $1 -eq "git" ]] 
+elif [[ $1 == "git" ]] 
 then
   (commit_changes $2)
 fi 
