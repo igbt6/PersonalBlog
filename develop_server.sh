@@ -16,7 +16,7 @@ CONFFILE=$BASEDIR/pelicanconf.py
 ###
 
 SRV_PID=$BASEDIR/srv.pid
-PELICAN_PID=$BASEDIR/pelican.pid
+PELICAN_PID=$BAScdDIR/pelican.pid
 
 function usage(){
   echo "usage: $0 (stop) (start) (restart) [port]"
